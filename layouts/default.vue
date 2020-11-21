@@ -1,19 +1,9 @@
 <template>
-<v-app>
-    <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
-    </v-main>
-</v-app>
+  <div id="appRoot">
+    <nuxt />
+  </div>
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      
-  }
-}
-}
+  export default {}
 </script>
